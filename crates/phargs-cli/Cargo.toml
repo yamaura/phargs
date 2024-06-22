@@ -1,5 +1,6 @@
 [package]
 name = "phargs-cli"
+version.workspace = true
 eversion.workspace = true
 authors.workspace = true
 edition.workspace = true
@@ -11,4 +12,4 @@ readme = "../../README.md"
 [dependencies]
 argh = "0.1.12"
 log = "0.4.21"
-phargs = { path = "../phargs" }
+phargs = { path = "../phargs", version = "=0.1.0" }
