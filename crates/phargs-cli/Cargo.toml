@@ -12,9 +12,3 @@ readme = "../../README.md"
 argh = "0.1.12"
 log = "0.4.21"
 phargs = { path = "../phargs" }
-
-[profile.release]
-strip = true
-lto = true
-opt-level = 'z'
-codegen-units = 1

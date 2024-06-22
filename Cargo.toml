@@ -19,3 +19,9 @@ tag-message = "{{tag_name}}"
 
 [workspace.metadata.docs.rs]
 all-features = true
+
+[profile.release]
+strip = true
+lto = true
+opt-level = 'z'
+codegen-units = 1
